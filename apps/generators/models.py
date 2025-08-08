@@ -2517,3 +2517,8 @@ def extra_generators_510(x):
 def extra_generators_511(x):
     """Extra distinct 511 for generators"""
     return x
+
+# feat: add generators CTGAN with relational foreign keys - feature/generators-ctgan
+def ctgan_extra(rows):
+    return [{'a': i%3} for i in range(rows)]
+
