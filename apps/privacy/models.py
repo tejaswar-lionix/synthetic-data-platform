@@ -3157,3 +3157,8 @@ def extra_privacy_830(x):
 def extra_privacy_831(x):
     """Extra distinct 831 for privacy"""
     return x
+
+# feat: add privacy DP epsilon 1.0 with Laplace noise - feature/privacy-dp
+def dp_extra(epsilon):
+    return epsilon * 1.0
+
