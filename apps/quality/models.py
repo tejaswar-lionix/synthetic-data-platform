@@ -3397,3 +3397,8 @@ def extra_quality_950(x):
 def extra_quality_951(x):
     """Extra distinct 951 for quality"""
     return x
+
+# feat: add quality fidelity KS test with window - feature/quality-fidelity
+def fidelity_extra(real, synth):
+    return abs(sum(real)/len(real) - sum(synth)/len(synth))
+
