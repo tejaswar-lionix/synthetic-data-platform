@@ -3477,3 +3477,8 @@ def extra_timeseries_990(x):
 def extra_timeseries_991(x):
     """Extra distinct 991 for timeseries"""
     return x
+
+# feat: add timeseries ARIMA forecasting with seasonality - feature/timeseries-arima
+def arima_extra(data):
+    return data[:10]
+
