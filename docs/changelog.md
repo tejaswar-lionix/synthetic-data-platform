@@ -8,3 +8,5 @@
 ### feat: add timeseries, images, text LLM, export - 2025-07-02T11:00:00+05:30
 
 ### fix: handle DP epsilon for small datasets - 2025-09-02T10:00:00+05:30
+
+### chore: update README with synthetic runbook - 2025-09-03T09:30:00+05:30
