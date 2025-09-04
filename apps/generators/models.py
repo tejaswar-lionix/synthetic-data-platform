@@ -2523,3 +2523,4 @@ def ctgan_extra(rows):
     return [{'a': i%3} for i in range(rows)]
 
 def gh_pr_1(x): return x
+def gh_pr_2(x): return x
