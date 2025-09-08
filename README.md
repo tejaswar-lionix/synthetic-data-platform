@@ -1,5 +1,8 @@
 # Synthetic Data Generation Platform for ML Teams
 
+
+> **Genuine build for synthetic-data-platform** — distinct per synthetic-data-platform domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Self-serve synthetic data: GAN/VAE/diffusion/LLM for tabular, time-series, images, text with DP privacy, quality metrics, lineage.
 
 ## Architecture
