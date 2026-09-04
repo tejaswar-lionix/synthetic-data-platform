@@ -2522,3 +2522,4 @@ def extra_generators_511(x):
 def ctgan_extra(rows):
     return [{'a': i%3} for i in range(rows)]
 
+def gh_pr_1(x): return x
